@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --cyan: hsl(180, 66%, 49%);
+    --dark-violet: hsl(257, 27%, 26%);
+    --red: hsl(0, 87%, 67%);
+    --gray: hsl(0, 0%, 75%);
+    --grayish-violet: hsl(257, 7%, 63%);
+    --very-dark-blue: hsl(255, 11%, 22%);
+    --very-dark-violet: hsl(260, 8%, 14%);
+  }
+
+
+.body{
+    font-size: 18px;
+    font-family: "poopins","sans-serif";
+    margin-inline: auto;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+
+  .left {
+    display: flex;
+  }
+  .left ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+  .left ul a {
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    color: var(--grayish-violet);
+    cursor: pointer;
+  }
+
+
+  .right {
+    margin-left: 0.5rem;
+  }
+  .right ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .right ul a {
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    color: var(--grayish-violet);
+    cursor: pointer;
+  }
+  .right ul .active {
+    background: #FFBF00;
+    color: black;
+    padding: 0.4rem 1.2rem;
+    border-radius: 1rem; 
+  }
+
+
+  .hamburger {
+    display: block;
+  }
+  .bar {
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    margin: 0.3rem auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
+  }
