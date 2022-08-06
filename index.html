@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>LinkWire</title>
 </head>
-<body>
+<body contenteditable="false">
     <header>
         <div class="left">
             <img src="Images/LinkWireLogo.svg" alt="logo">
@@ -22,12 +22,13 @@
                 <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
                 <li class="nav-item"><a href="#" class="nav-link active">Sign up</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
+        
     </header>
     <main>
         <section>
@@ -38,15 +39,45 @@
                 <button class="btn">Get started</button>    
             </div>
             <div class="image">
-                <img src="./Images/illustration-working.svg" alt="image">
+                <img src="./Images/mainCover.svg" alt="image">
             </div>
         </section>
         <section class="link-input">
             <form class="input-container">
-                <input type="text" placeholder="Shorten a link here" required/>
+                <input id="link-input" type="text" placeholder="Shorten a link here" required/>
                 <button type="submit" class="input-btn">Shorten it!</button>
             </form>
-            </section>
+        </section>
+        <section class="services">
+            <div class="service-content">
+              <h2>Advanced Statistics</h2>
+              <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+            </div>
+            <div class="cards">
+              <div class=" card card1">
+                <h3>Brand Recognition</h3>
+                <p>Boost your brand recognition with each click.
+                  Generic links don't mean a thing. Branded links help instil confidence in your content
+                </p>
+              </div>
+              <div class=" card card2">
+                <h3>Detailed Records</h3>
+                <p>Improve brand awareness and content discoverability
+                   through customizable links. Supercharging audience engagement.
+                </p>
+              </div>
+              <div class=" card card3">
+                <h3>Fully Customizable</h3>
+                <p>Boost your brand recognition with each click.
+                  Generic links don't mean a thing. Branded links help instil confidence in your content
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="boost">
+            <h2>Boost your links today</h2>
+            <button class="btn">Get Started</button>
+          </section>
 
         
     </main>
