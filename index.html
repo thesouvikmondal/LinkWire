@@ -10,11 +10,13 @@
 <body contenteditable="false">
     <header>
         <div class="left">
-            <img src="Images/LinkWire Logo.svg" alt="logo">
+            <img src="Images/LinkWireLogoMain.svg" alt="logo">
             <ul class="nav-menu">
                 <li class="nav-item"><a class="nav-link" href="#">Feature</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+                <li class="nav-item menu-btn"><a class="nav-link" href="#">Login</a></li>
+                <li class="nav-item menu-btn"><a href="#" class="nav-link active">Sign up</a></li>
             </ul>
         </div>
         <div class="right">
@@ -44,33 +46,33 @@
         </section>
         <section class="link-input">
             <form class="input-container">
-                <input id="link-input" type="text" placeholder="Shorten a link here" required/>
+                <input id="link-inputText" type="text" placeholder="Shorten a link here" required/>
                 <button type="submit" class="input-btn">Shorten it!</button>
             </form>
-            <div class="result">
+          <div class="result">
 
-            </div>
+          </div>
         </section>
         <section class="services">
             <div class="service-content">
               <h2>Advanced Statistics</h2>
               <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
             </div>
-            <div class="cards">
+            <div class="cards" id="cards">
               <div class=" card card1">
-                <h3>Brand Recognition</h3>
+                <h3>Link Shortner</h3>
                 <p>Boost your brand recognition with each click.
                   Generic links don't mean a thing. Branded links help instil confidence in your content
                 </p>
               </div>
               <div class=" card card2">
-                <h3>Detailed Records</h3>
+                <h3>Background Image Remover</h3>
                 <p>Improve brand awareness and content discoverability
                    through customizable links. Supercharging audience engagement.
                 </p>
               </div>
               <div class=" card card3">
-                <h3>Fully Customizable</h3>
+                <h3>One-Tap WhatsApp Share</h3>
                 <p>Boost your brand recognition with each click.
                   Generic links don't mean a thing. Branded links help instil confidence in your content
                 </p>
@@ -80,10 +82,7 @@
           
           
         </main>
-        <section class="boost">
-          <h2>Boost your links today</h2>
-          <button class="btn">Get Started</button>
-        </section>
+        
     <footer>
       <img src="./Images/LinkWireLogoFooter.svg" alt="logo"/>
           <ul class="footer-links">
@@ -103,7 +102,7 @@
           <li>About</li>
           <li>Our Team</li>
           <li>Careers</li>
-          <li>Contacts</li>
+          <!-- <li>Contacts</li> -->
         </ul>
           <div class="footer-social">
             <img src="./images/icon-facebook.svg" alt="facebook" class="social-links"/>
